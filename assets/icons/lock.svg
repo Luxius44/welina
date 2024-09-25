@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 20">
+  <g id="padlock_2_1" data-name="padlock (2) 1" transform="translate(-4 -2)">
+    <path id="Vector" d="M8,11a1.49,1.49,0,0,0-1,2.61V15a1,1,0,1,0,2,0V13.61A1.49,1.49,0,0,0,8,11Zm5-4V5A5,5,0,0,0,3,5V7a3,3,0,0,0-3,3v7a3,3,0,0,0,3,3H13a3,3,0,0,0,3-3V10a3,3,0,0,0-3-3ZM5,5a3,3,0,1,1,6,0V7H5Zm9,12a1,1,0,0,1-1,1H3a1,1,0,0,1-1-1V10A1,1,0,0,1,3,9H13a1,1,0,0,1,1,1Z" transform="translate(4 2)" fill="#7c82a1"/>
+  </g>
+</svg>

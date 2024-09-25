@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Accueil - Welina</title>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="icon" type="image/png" href="assets/img/favicon.png" />
+		<script defer src="js/app.js"></script>
+	</head>
+	<body>
+		<div class="app">
+			<div class="app-container">
+				<!-- Content -->
+				<div class="app-content">
+					<div class="app-home">
+						<img
+							src="assets/img/logo.svg"
+							alt=""
+							class="home-logo"
+						/>
+
+						<form class="new-msg">
+							<img
+								src="assets/img/avatar1.jpg"
+								alt="Avatar"
+								class="avatar"
+							/>
+							<input
+								type="text"
+								name="new-msg"
+								class="input"
+								placeholder="Ecrivez votre message..."
+								required
+							/>
+							<button type="submit" class="new-msg-btn">
+								<img src="assets/icons/send.svg" alt="Send" />
+							</button>
+						</form>
+
+						<p class="title">Aujourd'hui</p>
+
+						<!-- Message -->
+						<div class="msg-list">
+							<div class="msg card">
+								<img
+									src="assets/img/avatar1.jpg"
+									alt="Nathan Tim"
+									class="msg-avatar avatar"
+								/>
+								<p class="msg-author">Loic Mozu</p>
+								<div
+									class="msg-job job"
+									style="--color: #0c49bd"
+								>
+									Service Marketing
+								</div>
+								<p class="msg-msg">
+									Je ramène les croissants demain pour mon
+									anniversaire.
+								</p>
+								<label class="msg-likes">
+									<input
+										type="checkbox"
+										class="likes-input"
+									/>
+									<span class="likes-nb hidden">0</span>
+									<img
+										src="assets/icons/like.svg"
+										alt="Likes"
+										class="likes-icon"
+									/>
+								</label>
+							</div>
+						</div>
+
+						<p class="title">Hier</p>
+
+						<!-- Message -->
+						<div class="msg card">
+							<img
+								src="assets/img/avatar2.jpg"
+								alt="Michel Mardant"
+								class="msg-avatar avatar"
+							/>
+							<p class="msg-author">Ralph Nieman</p>
+							<div class="msg-job job" style="--color: #a2bd0c">
+								Service entretient
+							</div>
+							<p class="msg-msg">
+								Attention, le sol à l'entrée du bâtiment B est
+								très glissant. J'ai mis du sel. Cela devrait
+								aller mieux en début d'après-midi. L'accès au
+								bâtiment B est toujours possible via la porte C.
+							</p>
+							<label class="msg-likes">
+								<input
+									type="checkbox"
+									class="likes-input"
+									checked
+								/>
+								<span class="likes-nb">2</span>
+								<img
+									src="assets/icons/like.svg"
+									alt="Likes"
+									class="likes-icon"
+								/>
+							</label>
+						</div>
+
+						<!-- Message -->
+						<div class="msg card">
+							<img
+								src="assets/img/avatar3.jpg"
+								alt="Loic Mozu"
+								class="msg-avatar avatar"
+							/>
+							<p class="msg-author">Tanguy Corbeil</p>
+							<div class="msg-job job" style="--color: #e8803e">
+								Développeur
+							</div>
+							<p class="msg-msg">
+								Merci à celui ou celle qui laisse pourrir son
+								sandwich depuis 10 jours dans le frigo, de bien
+								vouloir le retirer et nettoyer la moisissure.
+							</p>
+							<a href="comments.html" class="msg-comments">
+								<div class="comments-nb">2 commentaires</div>
+
+								<img
+									src="assets/img/avatar1.jpg"
+									alt="Pierre Sion"
+									class="comments-img avatar"
+								/>
+								<img
+									src="assets/img/avatar2.jpg"
+									alt="Julia Minos"
+									class="comments-img avatar"
+								/>
+							</a>
+							<label class="msg-likes">
+								<input
+									type="checkbox"
+									class="likes-input"
+									checked
+								/>
+								<span class="likes-nb">4</span>
+								<img
+									src="assets/icons/like.svg"
+									alt="Likes"
+									class="likes-icon"
+								/>
+							</label>
+						</div>
+
+						<button class="home-load">
+							charger plus de message
+						</button>
+					</div>
+				</div>
+
+				<!-- Nav -->
+				<nav class="app-nav">
+					<a href="home.html" class="nav-link">
+						<img src="assets/icons/dashboard.svg" alt="Accueil" />
+					</a>
+					<a href="messages.html" class="nav-link active">
+						<img src="assets/icons/messager.svg" alt="Dashboard" />
+					</a>
+					<a href="settings.html" class="nav-link">
+						<img src="assets/icons/settings.svg" alt="Settings" />
+					</a>
+				</nav>
+			</div>
+		</div>
+	</body>
+</html>
